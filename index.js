@@ -19,8 +19,9 @@ const titleCased = () => {
       const rest = vocab.slice(1);
       return first + rest;
     })
+    return capitilesed.join(' ');
   })
-  return newTutorial  
+  return  newTutorial 
 }
 
 console.log(titleCased())
